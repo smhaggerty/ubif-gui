@@ -1,1 +1,11 @@
+.id {
+    background-color: rgb(244,244,247);
+    text-align: center;
+    width: 50%;
+    padding: 1em;
+    margin: auto
+}
 
+.search-input {
+    margin: 5% 5% 1% 23%;
+}
