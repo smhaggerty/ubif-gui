@@ -30,3 +30,17 @@ body {
     text-align: center;    
     position: fixed
 }
+
+.github-link {
+    position: fixed;
+    margin: auto;
+    bottom: 0;
+    right: 0;
+    height: 32px;
+    background-color: rgb(244,244,247);
+}
+
+.ubif-logo {
+    margin: auto;
+    display: block
+}

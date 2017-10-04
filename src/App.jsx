@@ -31,7 +31,7 @@ class App extends Component {
     return (
       <div>
         <div className="header-bar">
-        <img src="https://d27ppybfoyyraq.cloudfront.net/image/ubif_logo.svg" title="uBreakiFix" alt="uBreakiFix" width="160" height="24" className="logo"/>
+        <img src="https://d27ppybfoyyraq.cloudfront.net/image/ubif_logo.svg" title="uBreakiFix" alt="uBreakiFix" width="160" height="24" className="ubif-logo"/>
         </div>
         <SearchInput className="search-input" onChange={this.searchUpdated} />
         {filteredRepairs.map(repair => {
@@ -44,6 +44,9 @@ class App extends Component {
             </div>
           )
         })}
+        <a className="github-link" href="https://github.com/smhaggerty">
+        <img className="ghlogo" alt="link to developer page" src="./GitHub-Mark-32px.png" />
+        </a>
       </div>
     )
   }
