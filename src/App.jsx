@@ -37,7 +37,8 @@ class App extends Component {
         {filteredRepairs.map(repair => {
           return (
             <div className="id" key={repair.id}>
-              <div className="repair">{repair.repair} {repair.price}</div>
+              <div className="repair">{repair.repair} </div>
+              <div className="repair-price">{repair.price}</div>
               <div className="link">
                 <a href={repair.url}>Click for repair page</a>
               </div>

@@ -44,3 +44,7 @@ body {
     margin: auto;
     display: block
 }
+
+.repair-price {
+    padding: 1em
+}
