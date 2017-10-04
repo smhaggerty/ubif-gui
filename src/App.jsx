@@ -30,6 +30,9 @@ class App extends Component {
 
     return (
       <div>
+        <div className="header-bar">
+        <img src="https://d27ppybfoyyraq.cloudfront.net/image/ubif_logo.svg" title="uBreakiFix" alt="uBreakiFix" width="160" height="24" className="logo"/>
+        </div>
         <SearchInput className="search-input" onChange={this.searchUpdated} />
         {filteredRepairs.map(repair => {
           return (

@@ -10,17 +10,23 @@
 .search-input {
     background-color: rgb(244,244,247);
     padding: 1em;
+    padding-top: 8%;
     margin: auto;
     text-align: center;
 }
 input {
     width: 56% 
 }
-/* .search-input {
-    margin: 5% 5% 1% 22.2%;
-    align-self: center
-} */
 
 body {
     background-color: rgb(244,244,247)
+}
+
+.header-bar {
+    background-color: rgb(33,33,33);
+    width: 100%;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    text-align: center;    
+    position: fixed
 }
