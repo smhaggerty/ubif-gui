@@ -5,21 +5,26 @@
     padding: 2em;
     margin: auto;
     border:2px solid rgb(244,244,247);
+    font-family: 'Open Sans','Segoe UI','Droid Sans',Tahoma,Arial,sans-serif;    
 }
 
 .search-input {
     background-color: rgb(244,244,247);
     padding: 1em;
-    padding-top: 13%;
+    padding-top: 18%;
     margin: auto;
     text-align: center;
 }
+
+.search {
+}
+
 input {
     width: 56% 
 }
 
 body {
-    background-color: rgb(244,244,247)
+    background-color: rgb(244,244,247);
 }
 
 .header-bar {
@@ -47,4 +52,19 @@ body {
 
 .repair-price {
     padding: 1em
+}
+
+.repair {
+    padding: 1em;
+    text-align: center
+}
+
+.device-page:link, .device-page:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 0.6em 1em;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
 }

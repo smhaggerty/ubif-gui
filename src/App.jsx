@@ -33,17 +33,19 @@ class App extends Component {
         <div className="header-bar">
         <img src="https://d27ppybfoyyraq.cloudfront.net/image/ubif_logo.svg" title="uBreakiFix" alt="uBreakiFix" width="160" height="24" className="ubif-logo"/>
         </div>
+        <div className="search">
         <SearchInput className="search-input" onChange={this.searchUpdated} />
+        </div>
         {filteredRepairs.map(repair => {
           return (
             <div className="id" key={repair.id}>
               <div className="repair">{repair.repair} </div>
-              <div className="repair-price">{repair.price}</div>
               <div>
-                <img src={repair.logo} title="battery" alt="battery" />
+                <img src={repair.logo} title="repair-icon" alt="repair-icon" />
               </div>
+              <div className="repair-price">{repair.price}</div>
               <div className="link">
-                <a href={repair.url}>Click for repair page</a>
+                <a className="device-page" href={repair.url}>device page</a>
               </div>
             </div>
           )
