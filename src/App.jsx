@@ -39,6 +39,9 @@ class App extends Component {
             <div className="id" key={repair.id}>
               <div className="repair">{repair.repair} </div>
               <div className="repair-price">{repair.price}</div>
+              <div>
+                <img src={repair.logo} title="battery" alt="battery" />
+              </div>
               <div className="link">
                 <a href={repair.url}>Click for repair page</a>
               </div>
