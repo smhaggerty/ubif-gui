@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import SearchInput, {createFilter} from 'react-search-input'
+import {Button, Icon} from 'react-materialize';
+import SearchInput, {createFilter} from 'react-search-input';
 import repairs from './repairs.json';
 import './App.css';
 
@@ -45,7 +46,10 @@ class App extends Component {
               </div>
               <div className="repair-price">{repair.price}</div>
               <div className="link">
-                <a className="device-page" href={repair.url}>device page</a>
+                
+                <a  href={repair.url}>
+                  <Button className="red" waves='light'><Icon right></Icon>Device Page</Button>
+                </a>
               </div>
             </div>
           )
