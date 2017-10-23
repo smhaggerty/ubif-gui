@@ -1,3 +1,13 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+input:focus {
+    outline: none;
+}
 .id {
     background-color: rgb(252,252,252);
     text-align: center;
@@ -9,18 +19,24 @@
 }
 
 .search-input {
-    background-color: rgb(244,244,247);
+    background-color: rgb(56, 56, 146);
     padding: 1em;
     padding-top: 18%;
     margin: auto;
     text-align: center;
 }
 
-.search {
-}
+.input-field textarea:focus + label {
+    color: #2196f3 !important;
+  }
+  
+  .row .input-field textarea:focus {
+    border-bottom: 1px solid #2196f3 !important;
+    box-shadow: 0 1px 0 0 #2196f3 !important
+  }
 
 input {
-    width: 56% 
+    width: 56%;
 }
 
 body {
@@ -33,7 +49,7 @@ body {
     padding-bottom: 0.5em;
     padding-top: 0.5em;
     text-align: center;    
-    position: fixed
+    position: fixed;
 }
 
 .github-link {
@@ -59,7 +75,21 @@ body {
     text-align: center
 }
 
-.device-page:link, .device-page:visited {
+.search-input {
+    -webkit-appearance: none
+}
+
+textarea,
+input.text,
+input[type="text"],
+input[type=search] {
+    -webkit-border-radius: 0 !important;
+    border-radius: 0px !important;
+    -webkit-appearance: none
+}
+
+
+/* .link {
     background-color: #f44336;
     color: white;
     padding: 0.6em 1em;
@@ -67,4 +97,24 @@ body {
     text-decoration: none;
     display: inline-block;
     border-radius: 3px;
-}
+} */
+
+/* .red {
+    background-color: #f44336;
+    color: white;
+    padding: 0.6em 1em;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+} */
+
+/* .device-page:link, .device-page:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 0.6em 1em;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+} */
