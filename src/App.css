@@ -3,7 +3,7 @@ html, body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 input:focus {
     outline: none;
@@ -15,7 +15,7 @@ input:focus {
     padding: 2em;
     margin: auto;
     border:2px solid rgb(244,244,247);
-    font-family: 'Open Sans','Segoe UI','Droid Sans',Tahoma,Arial,sans-serif;    
+    font-family: 'Open Sans','Segoe UI','Droid Sans',Tahoma,Arial,sans-serif;
 }
 
 .search-input {
@@ -29,7 +29,7 @@ input:focus {
 .input-field textarea:focus + label {
     color: #2196f3 !important;
   }
-  
+
   .row .input-field textarea:focus {
     border-bottom: 1px solid #2196f3 !important;
     box-shadow: 0 1px 0 0 #2196f3 !important
@@ -48,9 +48,11 @@ body {
     width: 100%;
     padding-bottom: 0.5em;
     padding-top: 0.5em;
-    text-align: center;    
+    text-align: center;
     position: fixed;
 }
+
+
 
 .github-link {
     position: fixed;
@@ -87,34 +89,3 @@ input[type=search] {
     border-radius: 0px !important;
     -webkit-appearance: none
 }
-
-
-/* .link {
-    background-color: #f44336;
-    color: white;
-    padding: 0.6em 1em;
-    text-align: center; 
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 3px;
-} */
-
-/* .red {
-    background-color: #f44336;
-    color: white;
-    padding: 0.6em 1em;
-    text-align: center; 
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 3px;
-} */
-
-/* .device-page:link, .device-page:visited {
-    background-color: #f44336;
-    color: white;
-    padding: 0.6em 1em;
-    text-align: center; 
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 3px;
-} */
