@@ -45,21 +45,6 @@ class App extends Component {
       borderBottom: "solid red",
       value: ""
     }
-    this.repairCardDivStyle = {
-      width:"auto",
-      marginLeft: "10%",
-      marginRight: "10%",
-      marginTop: "1%",
-      marginBottom: "1%"
-    }
-    this.lastUpdateStampStyle = {
-      color: "black",
-      fontFamily:"roboto",
-      position: "fixed",
-      margin: "auto",
-      bottom: 0,
-      left: 0
-    }
   }
 
   render() {
@@ -93,15 +78,12 @@ class App extends Component {
           />
           {filteredRepairs.map(repair => {
             return (
-              <div
-                key={repair.url + repair.repair}
-                style={this.repairCardDivStyle}
-              >
+              <div key={repair.url + repair.repair} className="repair-card-div">
                 <MaterialCard  repairData={repair} />
               </div>
             )
           })}
-          <p style={this.lastUpdateStampStyle}>
+          <p className="last-update-stamp">
             Last Update: {repairs[0].date}
           </p>
           <GithubLink />
